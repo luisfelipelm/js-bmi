@@ -107,3 +107,29 @@ button:hover {
 	margin: 0 auto;
 	box-shadow: 3px 3px 4px 0 #CCC;
 }
+
+
+table.imagetable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.imagetable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.imagetable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+tr.selected-row {
+  background-color: #fff771;
+}
